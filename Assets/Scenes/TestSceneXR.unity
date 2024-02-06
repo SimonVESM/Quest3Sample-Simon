@@ -811,8 +811,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5647864425254393267, guid: 4a24f481328e8da4685aa220e564d785, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 686068544}
+    - targetCorrespondingSourceObject: {fileID: 5647864425254393267, guid: 4a24f481328e8da4685aa220e564d785, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 686068551}
   m_SourcePrefab: {fileID: 100100000, guid: 4a24f481328e8da4685aa220e564d785, type: 3}
+--- !u!1 &686068543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5647864425254393267, guid: 4a24f481328e8da4685aa220e564d785, type: 3}
+  m_PrefabInstance: {fileID: 686068542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &686068544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686068543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 5991136043526704251, guid: 3bb4dde744ae18d4aa45f37fca3ec0fe, type: 3}
+  m_DetectionMode: 2
+--- !u!114 &686068551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686068543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f66da7470dce8f4d821d71dd2b1d4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DestroyOnRemoval: 1
+  m_VertexChangedThreshold: 0.01
 --- !u!1 &890520904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8972661faa72e6243993ae89cbbf3eea, type: 3}
